@@ -1,6 +1,6 @@
 JUnit version 4.13.2
 .E..E.
-Time: 0.666
+Time: 0.646
 There were 2 failures:
 1) testFilterMulti(TestListExamples)
 java.lang.AssertionError: expected:<[Moon, moon, MOON]> but was:<[MOON, moon, Moon]>
@@ -11,13 +11,7 @@ java.lang.AssertionError: expected:<[Moon, moon, MOON]> but was:<[MOON, moon, Mo
 	at TestListExamples.testFilterMulti(TestListExamples.java:44)
 2) testMergeRightEnd(TestListExamples)
 org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
-	at java.base/java.util.Arrays.copyOf(Arrays.java:3512)
-	at java.base/java.util.Arrays.copyOf(Arrays.java:3481)
-	at java.base/java.util.ArrayList.grow(ArrayList.java:237)
-	at java.base/java.util.ArrayList.grow(ArrayList.java:244)
-	at java.base/java.util.ArrayList.add(ArrayList.java:454)
-	at java.base/java.util.ArrayList.add(ArrayList.java:467)
-	at ListExamples.merge(ListExamples.java:42)
+	at ListExamples.merge(ListExamples.java:43)
 	at TestListExamples.testMergeRightEnd(TestListExamples.java:17)
 
 FAILURES!!!
